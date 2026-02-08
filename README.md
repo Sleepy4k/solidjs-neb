@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![NEB Logo](public/assets/logo.svg)
+![NEB Logo](src/assets/images/neb.png)
 
 **Get your exam answers quickly and safely**
 
@@ -13,7 +13,7 @@
 
 A modern, high-performance website for NEB built with SolidJS, TypeScript, and TailwindCSS.
 
-[Live Demo](https://neb-website.vercel.app) · [Report Bug](https://github.com/Strioo/NEB/issues) · [Request Feature](https://github.com/Strioo/NEB/issues)
+[Live Demo](https://neb.benjamin4k.web.id) · [Report Bug](https://github.com/Sleepy4k/solidjs-neb/issues) · [Request Feature](https://github.com/Sleepy4k/solidjs-neb/issues)
 
 </div>
 
@@ -83,8 +83,8 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Strioo/NEB.git
-   cd NEB/neb_frontend
+   git clone https://github.com/Sleepy4k/solidjs-neb.git
+   cd solidjs-neb
    ```
 
 2. **Install dependencies**
@@ -584,6 +584,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## 👥 Authors
 
 - **Strioo** - *Initial work* - [GitHub](https://github.com/Strioo)
+- **Sleepy4k** - *Contributor* - [GitHub](https://github.com/Sleepy4k)
 
 ---
 
@@ -601,8 +602,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 Need help? Have questions?
 
 - 📧 **Email**: support@neb-website.com
-- 🐛 **Issues**: [GitHub Issues](https://github.com/Strioo/NEB/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/Strioo/NEB/discussions)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/Sleepy4k/solidjs-neb/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/Sleepy4k/solidjs-neb/discussions)
 
 ---
 
