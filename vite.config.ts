@@ -49,6 +49,8 @@ export default defineConfig({
           navbar: ["@components/Navbar"],
           "page-loader": ["@components/PageLoader"],
           tabs: ["@components/Tabs"],
+          "global-styles": ["@assets/styles/global.css"],
+          "noscript-styles": ["@assets/styles/noscript.css"],
         },
       },
     },
