@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.noscript-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #fafafa 0%, #f5f5f5 100%);
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+  padding: 20px;
+}
+
+.noscript-card {
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.1);
+  max-width: 480px;
+  width: 100%;
+  padding: 48px 32px;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+}
+
+.noscript-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 24px;
+  background: linear-gradient(135deg, #ff4f00 0%, #ff8044 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.noscript-icon::before {
+  content: "⚠";
+  font-size: 48px;
+  color: #ffffff;
+  line-height: 1;
+}
+
+.noscript-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #171717;
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
+}
+
+.noscript-subtitle {
+  font-size: 16px;
+  color: #737373;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.noscript-message {
+  background: #fff5f0;
+  border-left: 4px solid #ff4f00;
+  padding: 16px 20px;
+  border-radius: 12px;
+  margin-bottom: 32px;
+  text-align: left;
+}
+
+.noscript-message p {
+  font-size: 14px;
+  color: #404040;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.noscript-steps {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.noscript-steps h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #171717;
+  margin-bottom: 16px;
+}
+
+.noscript-steps ol {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.noscript-steps li {
+  font-size: 14px;
+  color: #525252;
+  line-height: 1.8;
+  margin-bottom: 8px;
+}
+
+.noscript-steps li strong {
+  color: #171717;
+  font-weight: 600;
+}
+
+.noscript-footer {
+  padding-top: 24px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.noscript-footer p {
+  font-size: 13px;
+  color: #737373;
+  line-height: 1.6;
+}
+
+.noscript-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.noscript-logo-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #171717;
+  letter-spacing: -0.02em;
+}
+
+.noscript-logo-badge {
+  background: #ff4f00;
+  color: #ffffff;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 480px) {
+  .noscript-card {
+    padding: 32px 24px;
+  }
+
+  .noscript-title {
+    font-size: 24px;
+  }
+
+  .noscript-icon {
+    width: 64px;
+    height: 64px;
+  }
+
+  .noscript-icon::before {
+    font-size: 36px;
+  }
+}
