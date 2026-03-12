@@ -124,7 +124,7 @@ export const text = {
     successTitle: "Success!",
     successMessage: "Your config has been processed. Copy the URL below:",
     errorTitle: "Error",
-    downloadBtn: "Copy URL",
+    downloadBtn: "Download JSON File",
     backBtn: "Upload Again",
     dragDropText: "Drag & drop file here",
     orText: "or",
